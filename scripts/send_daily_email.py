@@ -6,7 +6,7 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-CSV_FILE = "1000_jours_chef_projet_digital.csv"
+CSV_FILE = "500_prochains_jours_chef_projet_digital.csv"
 
 SMTP_HOST = os.environ["SMTP_HOST"]
 SMTP_PORT = int(os.environ.get("SMTP_PORT", "587"))
